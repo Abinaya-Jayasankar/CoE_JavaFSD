@@ -1,0 +1,164 @@
+{
+  "categories": {
+    "general": [
+
+      {
+        "title": "Global Leaders Discuss Future of AI",
+        "description": "World leaders gather to debate the role of AI in the future of society and economy.",
+        "url": "https://www.bbc.com/news/technology-65638852",
+        "urlToImage": "https://cfcbigideas.com/wp-content/uploads/2023/11/untitled-design-3-2.png",
+        "author": "John Doe",
+        "publishedAt": "2025-02-23"
+      },
+      {
+        "title": "Economy Trends 2025",
+        "description": "How the global economy is shaping up this year.",
+        "url": "https://www.cnbc.com/economy/",
+        "urlToImage": "https://image.cnbcfm.com/api/v1/image/107161191-1667596267167-gettyimages-1244440124-21_g7_sum_131.jpeg",
+        "author": "Emma Wilson",
+        "publishedAt": "2025-02-22"
+      },
+      {
+        "title": "UN Climate Summit 2025: Key Takeaways",
+        "description": "Global leaders discuss new strategies to combat climate change.",
+        "url": "https://www.un.org/climate-change-summit-2025",
+        "urlToImage": "https://static.euronews.com/articles/stories/07/61/38/84/1000x563_cmsv2_41c05729-0cfd-59d2-b61a-92b91693e53f-7613884.jpg",
+        "author": "UN News",
+        "publishedAt": "2025-02-23"
+      },
+      {
+        "title": "SpaceX Plans First Manned Mars Mission",
+        "description": "Elon Musk announces a timeline for sending humans to Mars.",
+        "url": "https://www.spacex.com/news/mars-mission",
+        "urlToImage": "https://www.hdwallpapers.in/download/spacex_bfr_mars_mission_4k-3840x2160.jpg",
+        "author": "SpaceX",
+        "publishedAt": "2025-02-22"
+      }
+    ],
+    "business": [
+      {
+        "title": "Cryptocurrency Market Boom in 2025",
+        "description": "Bitcoin and Ethereum reach all-time highs amid rising adoption.",
+        "url": "https://www.coindesk.com/crypto-market-2025",
+        "urlToImage": "https://img.freepik.com/premium-photo/cryptocurrency-market-concept_945447-4847.jpg",
+        "author": "CoinDesk",
+        "publishedAt": "2025-02-23"
+      },
+      {
+        "title": "Stock Market Update",
+        "description": "How the stock market is performing today.",
+        "url": "https://www.marketwatch.com/",
+        "urlToImage": "https://media.istockphoto.com/id/1487894858/photo/candlestick-chart-and-data-of-financial-market.jpg?s=612x612&w=0&k=20&c=wZ6vVmbm4BV2JOePSnNNz-0aFVOJZ0P9nhdeOMGUg5I=",
+        "author": "Sophia Money",
+        "publishedAt": "2025-02-23"
+      },
+      {
+        "title": "Tech Companies Growth",
+        "description": "The latest trends in the tech industry.",
+        "url": "https://www.forbes.com/technology/",
+        "urlToImage": "https://www.eternalworks.com/hubfs/SaaSFiles/bigstock--225292126.jpg#keepProtocol",
+        "author": "Mark Business",
+        "publishedAt": "2025-02-22"
+      },
+      {
+        "title": "Global Business Outlook 2025",
+        "description": "Experts analyze the future of global markets post-pandemic.",
+        "url": "https://www.bloomberg.com/news/articles/global-business-outlook-2025",
+        "urlToImage": "https://assets.bwbx.io/images/users/iqjWHBFdfxIU/i_6n8MEtOUs8/v1/1200x800.jpg",
+        "author": "Bloomberg",
+        "publishedAt": "2025-02-22"
+      }
+    ],
+    "sports": [
+      {
+        "title": "Champions League Final",
+        "description": "The most awaited football match is here.",
+        "url": "https://www.espn.com/soccer/",
+        "urlToImage": "https://e1.pxfuel.com/desktop-wallpaper/433/514/desktop-wallpaper-christian-pulisic-and-chelsea-win-uefa-champions-league-final.jpg",
+        "author": "Alex Sports",
+        "publishedAt": "2025-02-23"
+      },
+      {
+        "title": "Indian Cricket Team Secures Historic Win",
+        "description": "India clinches victory in an intense match against Australia.",
+        "url": "https://www.cricbuzz.com/cricket-news/historic-india-vs-australia",
+        "urlToImage": "https://images.hindustantimes.com/img/2021/05/18/1600x900/509278_900x506_1621306043498_1621306049788.jpg",
+        "author": "Cricbuzz",
+        "publishedAt": "2025-02-22"
+      }
+    ],
+    "technology": [
+      {
+        "title": "Quantum Computing Milestone Achieved",
+        "description": "Scientists have made a major breakthrough in quantum computing, significantly improving processing speeds and error correction.",
+        "url": "https://www.techcrunch.com/quantum-computing",
+        "urlToImage": "https://azure.microsoft.com/en-us/blog/quantum/wp-content/uploads/2024/04/240326_LQ_800X450.webp",
+        "author": "Tech Insights",
+        "publishedAt": "2025-02-23"
+      },
+      {
+        "title": "AI Breakthrough 2025",
+        "description": "New AI models surpass human capabilities.",
+        "url": "https://www.wired.com/category/ai/",
+        "urlToImage": "https://i.ytimg.com/vi/Q3cDOSsWUDw/maxresdefault.jpg",
+        "author": "Tech Guru",
+        "publishedAt": "2025-02-23"
+      }
+    ],
+    "entertainment": [
+      {
+        "title": "Avatar 3 Breaks Box Office Records",
+        "description": "James Cameron’s latest blockbuster surpasses expectations.",
+        "url": "https://www.boxofficemojo.com/news/avatar-3-records",
+        "urlToImage": "https://static1.cbrimages.com/wordpress/wp-content/uploads/2023/03/avatar-the-way-of-water-and-avengers-infinity-war.jpg",
+        "author": "Box Office Mojo",
+        "publishedAt": "2025-02-23"
+      },
+      {
+        "title": "Oscars 2025 Winners",
+        "description": "The biggest names in the film industry celebrated.",
+        "url": "https://www.hollywoodreporter.com/",
+        "urlToImage": "https://variety.com/wp-content/uploads/2022/03/Oscars-Oscar-Academy-Awards-Statue-Placeholder.jpg",
+        "author": "Film Critic",
+        "publishedAt": "2025-02-23"
+      }
+      
+    ],
+    "health": [
+      {
+        "title": "WHO Approves Breakthrough Cancer Drug",
+        "description": "A new treatment shows promising results against multiple cancers.",
+        "url": "https://www.who.int/news/cancer-drug-approval",
+        "urlToImage": "https://www.gannett-cdn.com/-mm-/3b8b0abcb585d9841e5193c3d072eed1e5ce62bc/c=0-30-580-356/local/-/media/2017/08/22/USATODAY/usatsports/cancer-treatments_large.jpg?width=3200&height=1680&fit=crop",
+        "author": "World Health Organization",
+        "publishedAt": "2025-02-23"
+      },
+      {
+        "title": "Fitness Tips for 2025",
+        "description": "New fitness routines for a healthier life.",
+        "url": "https://www.healthline.com/fitness/",
+        "urlToImage": "https://resize.indiatvnews.com/en/resize/newbucket/1200_-/2022/02/fitness-tips-1645774618.jpg",
+        "author": "Dr. Fit",
+        "publishedAt": "2025-02-23"
+      }
+    ],
+    "science": [
+      {
+        "title": "Scientists Create First Lab-Grown Human Organ",
+        "description": "Breakthrough in regenerative medicine as researchers grow a functional kidney.",
+        "url": "https://www.sciencemag.org/news/lab-grown-organ",
+        "urlToImage": "https://www.sciencealert.com/images/articles/processed/ArtificialLimb_1024.jpg",
+        "author": "Science Magazine",
+        "publishedAt": "2025-02-22"
+      },
+      {
+        "title": "New Exoplanet Found",
+        "description": "A planet similar to Earth has been discovered.",
+        "url": "https://www.nasa.gov/mission_pages/exoplanets/",
+        "urlToImage": "https://th.bing.com/th/id/R.d7259d2cc0ec5d03379040817496ef00?rik=P9B4elRwNFVVcg&riu=http%3a%2f%2fwww.eso.org%2fpublic%2farchives%2fimages%2fscreen%2feso1134b.jpg&ehk=Mlfs%2f2MgMUPK5JQQZqCVOzIKBUIFupVMN%2bIcWWNfB2U%3d&risl=&pid=ImgRaw&r=0",
+        "author": "NASA Scientist",
+        "publishedAt": "2025-02-23"
+      }
+    ]
+  }
+}

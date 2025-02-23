@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online News Platform</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <h1>Online News Platform</h1>
+        <nav>
+            <ul>
+                <li><a href="#" class="category-link" data-category="general">Home</a></li>
+                <li><a href="#" class="category-link" data-category="business">Business</a></li>
+                <li><a href="#" class="category-link" data-category="sports">Sports</a></li>
+                <li><a href="#" class="category-link" data-category="technology">Technology</a></li>
+                <li><a href="#" class="category-link" data-category="entertainment">Entertainment</a></li>
+                <li><a href="#" class="category-link" data-category="health">Health</a></li>
+                <li><a href="#" class="category-link" data-category="science">Science</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Search Bar -->
+    <div class="search-container">
+        <input type="text" id="searchInput" placeholder="Search news...">
+        <button id="searchButton">Search</button>
+    </div>
+
+    <!-- ✅ Only "Breaking News" text remains -->
+    <section id="featured-news">
+        <h2>Breaking News</h2>
+    </section>
+
+    <!-- News Container -->
+    <section id="newsContainer"></section>
+
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
