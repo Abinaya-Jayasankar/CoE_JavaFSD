@@ -1,0 +1,98 @@
+<div class="container">
+    <h2 class="text-center">Find a Service Provider</h2>
+
+    <!-- Category Filter -->
+    <div class="alert alert-dark" role="alert" style="background-color: rgb(84, 27, 77);">
+        <label style="color: azure;">Select Service Category:</label>
+        <select class="form-control w-50" [(ngModel)]="selected" (change)="filterProviders()">
+            <option *ngFor="let category of serviceCategories" [value]="category">
+                {{ category }}
+            </option>
+        </select>
+    </div>
+
+    <!-- Display Providers -->
+    <div class="row">
+        <div class="col-md-4 mb-3" *ngFor="let provider of providerList">
+            <div class="card shadow-lg">
+                <img [src]="'http://localhost:8090/' + provider.image" class="provider-img" alt="{{ provider.name }}">
+                <div class="card-body">
+                    <h5 class="card-title" style="color: brown;"><b>{{ provider.name | uppercase}}</b></h5>
+                    <p style="color: rgb(1, 1, 1);"><strong>Service:</strong> {{ provider.service }}</p>
+                    <p style="color: rgb(0, 0, 0);"><strong>Location:</strong> {{ provider.location }}</p>
+                    <p class="rating">
+                       <b> <strong>Rating:</strong> {{ provider.rating }} ★</b>
+                    </p>
+                    <button class="btn btn-primary w-100" (click)="openBookingForm(provider)">Book Now</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!-- Booking Form Modal -->
+<div *ngIf="showBookingForm" class="modal-backdrop fade show"></div>
+<div class="modal d-block" *ngIf="showBookingForm">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title">Book Service</h5>
+                <button type="button" class="close" (click)="closeBookingForm()">&times;</button>
+            </div>
+            <div class="modal-body">
+                <form (submit)="submitBooking()">
+                    <!-- User Details -->
+                    <div class="mb-3">
+                        <label class="form-label">Your Name</label>
+                        <input type="text" class="form-control" [(ngModel)]="bookingData.name" name="name" required />
+                    </div>
+
+                    <div class="mb-3">
+                        <label class="form-label">Your Email</label>
+                        <input type="email" class="form-control" [(ngModel)]="bookingData.email" name="email" required />
+                    </div>
+
+                    <!-- Service Provider Details (Auto-filled) -->
+                    <div class="mb-3">
+                        <label class="form-label">Provider Name</label>
+                        <input type="text" class="form-control" [(ngModel)]="bookingData.providerName" name="providerName" readonly />
+                    </div>
+
+                    <div class="mb-3">
+                        <label class="form-label">Service Type</label>
+                        <input type="text" class="form-control" [(ngModel)]="bookingData.service" name="service" readonly />
+                    </div>
+
+                    <div class="mb-3">
+                        <label class="form-label">Location</label>
+                        <input type="text" class="form-control" [(ngModel)]="bookingData.location" name="location" readonly />
+                    </div>
+
+                    <div class="mb-3">
+                        <label class="form-label">Experience</label>
+                        <input type="text" class="form-control" [(ngModel)]="bookingData.experience" name="experience" readonly />
+                    </div>
+
+                    <div class="mb-3">
+                        <label class="form-label">Rating</label>
+                        <input type="text" class="form-control" [(ngModel)]="bookingData.rating" name="rating" readonly />
+                    </div>
+
+                    <!-- Booking Details -->
+                    <div class="mb-3">
+                        <label class="form-label">Booking Date</label>
+                        <input type="date" class="form-control" [(ngModel)]="bookingData.date" name="date" required />
+                    </div>
+
+                    <div class="mb-3">
+                        <label class="form-label">Special Instructions</label>
+                        <textarea class="form-control" [(ngModel)]="bookingData.instructions" name="instructions"></textarea>
+                    </div>
+
+                    <button type="submit" class="btn btn-success">Confirm Booking</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>

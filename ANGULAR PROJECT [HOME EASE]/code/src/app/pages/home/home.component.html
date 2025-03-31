@@ -1,0 +1,57 @@
+<div class="home-container">
+  <!-- Hero Section with Dynamic Background -->
+  <div class="hero-section" 
+       [style.backgroundImage]="'url(http://localhost:8090/' + (homeData.image || 'default.jpg') + ')'" 
+       *ngIf="homeData.image" 
+       style="height: 550px; background-size: cover; background-position: center; background-repeat: no-repeat; display: flex; flex-direction: column; align-items: center; justify-content: center; text-align: center; color: white; position: relative;">
+
+    <!-- Dark Overlay for Better Readability -->
+    <div style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0, 0, 0, 0.5);"></div>
+
+    <!-- Content Wrapper -->
+    <div style="position: relative; z-index: 1;">
+      <h1 style="font-size: 42px; font-weight: bold; margin-bottom: 15px;">Welcome to HomeEase</h1>
+      <p style="font-size: 18px; max-width: 600px; margin: 0 auto; opacity: 0.9;">{{ homeData.description || 'Your one-stop solution for home services' }}</p>
+      <button style="background-color: #ffcc00; color: black; border: none; padding: 14px 28px; font-size: 20px; font-weight: bold; cursor: pointer; border-radius: 8px; transition: 0.3s; margin-top: 20px;">
+        Get Started
+      </button>
+    </div>
+  </div>
+</div>
+<div class="home-container">
+  
+  <!-- Mission & Vision Section -->
+  <section class="mission-vision" style="display: flex; justify-content: center; gap: 20px; padding: 40px; background: #f4f4f4;">
+    <div class="mission" style="background: white; padding: 30px; border-radius: 12px; box-shadow: 0 4px 10px rgba(0,0,0,0.1); text-align: center; width: 45%;">
+      <h2 style="color: #4facfe;">Our Mission</h2>
+      <p>To simplify home maintenance by connecting users with verified, trusted, and skilled professionals.</p>
+    </div>
+    <div class="vision" style="background: white; padding: 30px; border-radius: 12px; box-shadow: 0 4px 10px rgba(0,0,0,0.1); text-align: center; width: 45%;">
+      <h2 style="color: #00f2fe;">Our Vision</h2>
+      <p>To be the most reliable home service platform, ensuring convenience, safety, and customer satisfaction.</p>
+    </div>
+  </section>
+<!-- Trusted By & User Stats -->
+<section class="trusted-section">
+  <h2>HomeEase is Trusted By</h2>
+  <div class="stats-container">
+    <div class="stat-box">
+      <h3>500K+</h3>
+      <p>Happy Customers</p>
+    </div>
+    <div class="stat-box">
+      <h3>50K+</h3>
+      <p>Verified Service Providers</p>
+    </div>
+    <div class="stat-box">
+      <h3>250+</h3>
+      <p>Cities Covered</p>
+    </div>
+    <div class="stat-box">
+      <h3>24/7</h3>
+      <p>Support Available</p>
+    </div>
+  </div>
+</section>
+
+</div> <!-- ✅ Corrected: This is the only closing tag for .home-container -->
