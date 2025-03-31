@@ -1,0 +1,17 @@
+.service-detail {
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+  }
+  .service-img {
+    width: 100%;
+    height:auto;
+    object-fit: cover;
+   
+    object-fit: cover;
+    
+  }
+  

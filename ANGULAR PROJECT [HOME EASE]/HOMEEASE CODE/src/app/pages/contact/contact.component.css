@@ -1,0 +1,41 @@
+.contact-details-container {
+    background: #154360;  /* Dark blue background */
+    padding: 50px 20px;  /* Increase padding */
+    border-radius: 10px;
+    margin: 20px 0;  /* Add space above and below */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    min-height: 250px; /* Increase height */
+}
+
+.contact-item {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 250px;
+    margin: 15px;
+}
+
+/* Map */
+.contact-map {
+    margin-top: 20px;
+}
+
+/* Social Media */
+.social-media {
+    margin-top: 20px;
+}
+
+.social-media a {
+    font-size: 24px;
+    margin: 10px;
+    color: #007bff;
+}
+
+.social-media a:hover {
+    color: #0056b3;
+}

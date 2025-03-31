@@ -1,0 +1,9 @@
+body {
+  background-image: url('http://localhost:8090/HomeEase_Light_bg.jpg'); 
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  margin: 0;
+  font-family: Arial, sans-serif;
+}

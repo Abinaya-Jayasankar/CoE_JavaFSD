@@ -1,0 +1,73 @@
+
+<div class="about-container">
+    <!-- Who We Are Section -->
+    <div class="about-header">
+      <h2>Who We Are</h2>
+      <p>
+        At <span class="highlight">HomeEase</span>, we are dedicated to simplifying home maintenance with 
+        reliable, skilled, and verified service providers. From <strong>plumbing</strong> to <strong>electrical repairs</strong>, 
+        we connect you with the best experts for all your home needs.
+      </p>
+    </div>
+  
+    <!-- Our Story Section with Cards -->
+    <h3 class="section-title">Our Story</h3>
+    <div class="story-section">
+      <div class="story-card">
+        <h4>🏡 Founded in 2020</h4>
+        <p>We started as a small team with a vision to bring trusted home services to everyone.</p>
+      </div>
+      <div class="story-card">
+        <h4>🌍 Expanded Nationwide</h4>
+        <p>By 2022, we had successfully expanded to over 100 cities, helping thousands of customers.</p>
+      </div>
+      <div class="story-card">
+        <h4>🎉 500K+ Happy Users</h4>
+        <p>Today, HomeEase proudly serves over 500,000 users with trusted home maintenance services.</p>
+      </div>
+    </div>
+  
+    <!-- Why Choose Us Section -->
+    <h3 class="section-title">Why Choose Us?</h3>
+    <div class="choose-us">
+      <div class="choose-box">
+        <h4>✅ 24/7 Customer Support</h4>
+        <p>We are available anytime to assist you with your home service needs.</p>
+      </div>
+      <div class="choose-box">
+        <h4>🛠 Verified Professionals</h4>
+        <p>Every provider is background-checked for your safety and quality assurance.</p>
+      </div>
+      <div class="choose-box">
+        <h4>💰 Transparent Pricing</h4>
+        <p>No hidden fees! You pay only for what you get.</p>
+      </div>
+    </div>
+  </div>
+  <h3 class="section-title"><b>Our Services</b></h3>
+
+<div class="service-grid">
+  <div class="service-card" *ngFor="let service of services" (click)="viewServiceDetails(service)">
+    <img [src]="'http://localhost:8090/' + service.image" class="service-img" alt="{{ service.name }}">
+    <div class="service-content">
+      <h4>{{ service.name | titlecase }}</h4>
+      <p>{{ service.description }}</p>
+    </div>
+  </div>
+</div>
+
+<!-- Decorative Feedback Section -->
+<div class="container mt-5" *ngIf="feedbackMessages.length > 0">
+  <h2 class="text-center text-primary">User Feedback</h2>
+  
+  <div class="row">
+    <div class="col-md-6" *ngFor="let feedback of feedbackMessages">
+      <div class="card shadow-lg p-4 mb-4">
+        <div class="card-body">
+          <h4 class="card-title text-success">⭐ {{ feedback.serviceName }}</h4>
+          <p class="card-text">"{{ feedback.message }}"</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
