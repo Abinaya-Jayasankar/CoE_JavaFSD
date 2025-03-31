@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "281400763694",
+    "project_id": "crimewatch-15ff3",
+    "storage_bucket": "crimewatch-15ff3.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:281400763694:android:93bf6882e723a9f39286bf",
+        "android_client_info": {
+          "package_name": "com.example.crimewatch"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBYb6SHsb5ghm7e-WtHOkZAj6re5_oZqwA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
